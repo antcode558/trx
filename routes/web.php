@@ -31,6 +31,8 @@ Route::get('/notify', function (Request $request) {
 
 Route::post('/notifyPost', function (Request $request) {
 
+    dd(1);
+
 //    $url1 = 'https://api.telegram.org/bot7043828057:AAFI5aLJvtCgo-aIZO8Q-6PDiSctCxZ79yU/sendMessage?chat_id=6635332924&text=post';
 //
 //    Get_Pay($url1);
